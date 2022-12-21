@@ -1,0 +1,1 @@
+$('body').parallax({imageSrc: './assets/main.jpg'});

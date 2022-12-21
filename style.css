@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    color: rgb(8, 20, 20);
+    background-color: rgb(220, 232, 255);
+}
+.line_logo{
+    color: rgb(8, 20, 20);
+}
+.skills{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    color:rgb(220, 232, 255);
+    text-align: center;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)), url("./assets/autodesk-maya-2.jpg");
+}
+
+.header_text{
+    font-size: 5em;
+}
+
+.header_line{
+    top: 0;
+    left: 0;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: absolute;
+    width: 99vw;
+    background-color: rgb(220, 232, 255);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qualification_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin: 20px 0;
+    font-size: 3em;
+    text-align: center;
+}
+
+.paragraph{
+    font-size: 1.1em;
+}
+
+.section{
+    padding: 10px 10%;
+}
+
+.qualification_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.qualification_item{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.qualification_item img {
+    margin-right: 20px;
+    width: 200px;
+}
+
+.qualification_title{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: rgba(21, 71, 71, 0.472);
+}
+.qualification_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills_item{
+    margin: 20px 0;
+}
+
+.footer{
+    height: 100px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer_delimeter{
+    position: absolute;
+    height: 1px;
+    width: 50%;
+    top: 1px;
+}
+
+a{
+    color: rgb(20, 24, 24);
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.about, .qualification{
+    padding: 30px 10%;
+}
+
+.line_mail{
+    align-items: center;
+    display: flex;
+}
+
+.line_mail img{
+    margin-right: 10px;
+    width: 30px;
+}
+
+.footer_text{
+    margin-bottom: 40px;
+}
